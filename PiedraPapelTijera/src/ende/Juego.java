@@ -8,49 +8,12 @@ package ende;
 
 public class Juego 
 {
-	/**
-	 *
-	 */
-	class Jugador{
-	   
-	    int exitos;      // número de partidas ganadas
-	    int winTotal;
-	    
-	    /**
-	     * Escoge piedra, papel o tijera al azar
-	     */
-	    public String opcion_al_azar()
-	    {
-	        String opcion="";
-	        Integer c = (int)(Math.random()*3);
-	        switch(c){
-	            case 0:
-	            	opcion=("piedra");
-	                break;
-	            case 1:
-	            	opcion=("papel");
-	                break;
-	            case 2:
-	            	opcion=("tijeras");
-	        }
-	        return opcion;
-	    }
-	    public void setExitos() 
-	    {
-	        exitos++;
-	    }
-	    public int getExitos() 
-	    {
-	        return(exitos);
-	    }
-	    
-
-	}
+	
 	
     public static void main(String args[])
     {
-        Jugador p1= new Jugador();
-        Jugador p2= new Jugador();
+        Jugador p1=new Jugador();
+        Jugador p2=new Jugador();
         boolean fin_de_juego=false;  
         Integer Rondasjugadas = 0;    // Número de rondas jugadas
         Integer EXITOS_jugador1=p1.exitos;
