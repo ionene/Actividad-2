@@ -14,17 +14,17 @@ public class Jugador{
 	     */
 	    public String opcionAlAzar()
 	    {
-	        String opcion="";
+	        String opcion = "";
 	        Integer aleatorio = (int)(Math.random()*3);
-	        switch(aleatorio){
+	        switch(aleatorio) {
 	            case 0:
-	            	opcion=("piedra");
+	            	opcion = ("piedra");
 	                break;
 	            case 1:
-	            	opcion=("papel");
+	            	opcion = ("papel");
 	                break;
 	            case 2:
-	            	opcion=("tijeras");
+	            	opcion = ("tijeras");
 	        }
 	        return opcion;
 	    }
