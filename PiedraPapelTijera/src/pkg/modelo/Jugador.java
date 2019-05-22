@@ -22,7 +22,7 @@ public class Jugador{
 	            case 1:
 	            	opcion = "papel";
 	                break;
-	            case 2:
+	            default:
 	            	opcion = "tijeras";
 	        }
 	        return opcion;
