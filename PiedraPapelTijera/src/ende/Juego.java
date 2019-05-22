@@ -12,8 +12,8 @@ public class Juego
 	
     public static void main(String args[])
     {
-        Jugador p1=new Jugador();
-        Jugador p2=new Jugador();
+        Jugador p1 = new Jugador();
+        Jugador p2 = new Jugador();
         boolean fin_de_juego=false;  
         Integer Rondasjugadas = 0;    // Número de rondas jugadas
         Integer EXITOS_jugador1=p1.exitos;
