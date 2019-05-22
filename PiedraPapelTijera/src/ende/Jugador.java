@@ -12,7 +12,7 @@ public class Jugador{
 	    /**
 	     * Escoge piedra, papel o tijera al azar
 	     */
-	    public String opcion_al_azar()
+	    public String opcionAlAzar()
 	    {
 	        String opcion="";
 	        Integer aleatorio = (int)(Math.random()*3);
